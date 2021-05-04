@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+       <meta charset="utf-8"/>
+       <title>Filmes</title>
+   </head>
+   <body>
+        <h1>Lista de Recomendação de Filmes e Cadastro</h1>
+        <div class="movies">
+            {% for item in lista %}
+                <div class="movie">
+                    <h2><a href="#">{{item.Titulo}}</a></h2>
+                </div>
+            {% endfor %}
+        </div>
+   </body>
+</html>
